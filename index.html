@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Récit de vie de Christian</title>
+    <meta
+      name="description"
+      content="Page familiale de présentation du récit de vie de Christian, avec film, chapitres et ressources à télécharger."
+    >
+    <meta name="robots" content="noindex,nofollow">
+    <link rel="preconnect" href="https://www.youtube-nocookie.com">
+    <link rel="preconnect" href="https://img.youtube.com">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="auth-pending">
+    <section class="access-screen" data-access-screen aria-labelledby="access-title">
+      <form class="access-card" data-access-form>
+        <p class="access-kicker">Espace familial</p>
+        <h1 id="access-title">Récit de vie de Christian</h1>
+        <p>
+          Cette page rassemble le film, les chapitres et les fichiers du projet.
+          Entrez le code transmis à la famille pour continuer.
+        </p>
+        <label for="access-code">Code d’accès</label>
+        <div class="access-row">
+          <input
+            id="access-code"
+            name="access-code"
+            type="password"
+            autocomplete="off"
+            inputmode="text"
+            data-access-input
+            required
+          >
+          <button class="button primary" type="submit">Entrer</button>
+        </div>
+        <p class="access-error" data-access-error role="status" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <header class="site-header">
+      <a class="brand" href="#accueil" aria-label="Retour en haut de page">Récit de vie de Christian</a>
+      <nav class="main-nav" aria-label="Navigation principale">
+        <a href="#film">Le film</a>
+        <a href="#chapitres">Chapitres</a>
+        <a href="#demarche">Démarche</a>
+        <a href="#telechargements">Téléchargements</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="accueil">
+      <section class="hero section-pad">
+        <div class="hero-copy">
+          <p class="for-family">Famille, entourage, cette page vous est dédiée</p>
+          <h1>Christian nous raconte...</h1>
+          <p>
+            Vous trouverez ici l'ensemble du projet réalisé autour de l'interview de Christian,
+            le grand-père de Corentin.
+          </p>
+          <p>
+            Ce projet a été imaginé par Corentin, qui a souhaité recueillir et transmettre son
+            histoire à toute la famille.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#film">Voir le film</a>
+            <a class="button secondary" href="#telechargements">Accéder aux fichiers</a>
+          </div>
+        </div>
+
+        <div class="hero-media" aria-label="Aperçu du film">
+          <img
+            src="https://img.youtube.com/vi/Zb5O5A5VZYE/maxresdefault.jpg"
+            alt="Aperçu de la vidéo Christian nous raconte"
+          >
+          <div class="media-caption">
+            <span>Film court</span>
+            <strong>30 min</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro section-pad" aria-labelledby="bienvenue-title">
+        <div class="section-heading">
+          <h2 id="bienvenue-title">Bienvenue</h2>
+          <p>
+            Un espace simple pour regarder, écouter, transmettre et conserver le témoignage.
+          </p>
+        </div>
+        <div class="intro-grid">
+          <article>
+            <h3>Cœur du projet, le film</h3>
+            <p>
+              Découvrez l’incroyable parcours de Christian de son enfance au Togo à sa vie
+              d’avocat à Paris, en passant par ses études brillantes, ses engagements, et ses
+              réflexions sur la famille.
+            </p>
+          </article>
+          <article>
+            <h3>Un souvenir impérissable</h3>
+            <p>
+              Une interview pleine de sagesse, d’anecdotes et de valeurs transmises avec
+              simplicité. Se livrer ainsi avec une telle éloquence rend cette vidéo
+              particulièrement précieuse pour les générations futures.
+            </p>
+          </article>
+          <article>
+            <h3>Une sélection courte</h3>
+            <p>
+              Cette vidéo condensée de 30 minutes est le fruit d’une sélection faite par
+              Corentin. Elle rassemble les passages marquants de l’interview et permet d’en
+              saisir la richesse en un format court.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="film section-pad" id="film" aria-labelledby="film-title">
+        <div class="section-heading split">
+          <div>
+            <h2 id="film-title">Le film</h2>
+            <p>
+              Lancez la vidéo, puis utilisez la frise pour retrouver directement les grandes
+              étapes du récit.
+            </p>
+          </div>
+          <a class="text-link" href="https://youtu.be/Zb5O5A5VZYE" target="_blank" rel="noreferrer">
+            Ouvrir sur YouTube
+          </a>
+        </div>
+        <div class="video-shell">
+          <iframe
+            id="main-video"
+            src="https://www.youtube-nocookie.com/embed/Zb5O5A5VZYE?enablejsapi=1&rel=0&modestbranding=1"
+            title="Christian nous raconte"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+
+      <section class="chapters section-pad" id="chapitres" aria-labelledby="chapters-title">
+        <div class="section-heading split">
+          <div>
+            <h2 id="chapters-title">La frise chronologique</h2>
+            <p>
+              Survolez la frise pour la faire glisser. Cliquez sur un chapitre pour déplacer
+              la vidéo au bon moment.
+            </p>
+          </div>
+          <div class="chapter-controls" aria-label="Contrôles de la frise">
+            <button type="button" data-scroll-chapters="-1" aria-label="Faire défiler vers la gauche">
+              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"></path></svg>
+            </button>
+            <button type="button" data-scroll-chapters="1" aria-label="Faire défiler vers la droite">
+              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"></path></svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="timeline" data-timeline>
+          <div class="timeline-axis" aria-hidden="true"></div>
+          <div class="chapter-track" data-chapter-track></div>
+        </div>
+      </section>
+
+      <section class="demarche section-pad" id="demarche" aria-labelledby="demarche-title">
+        <div class="section-heading">
+          <h2 id="demarche-title">La démarche derrière ce projet</h2>
+        </div>
+        <div class="story-block">
+          <p>
+            Corentin a imaginé et co-construit ce projet dès le départ. C’est lui qui a préparé
+            les questions, pensé l’entretien, réfléchi à ce qu’il voulait transmettre.
+          </p>
+          <p>
+            Mon rôle a été de l’accompagner dans cette démarche, de faciliter la préparation
+            de l'entretien pour que l’échange se déroule de manière fluide, humaine et mémorable.
+          </p>
+          <p>
+            Ce type d’entretien est bien plus qu’une simple captation vidéo. C’est un moment de
+            transmission, un dialogue entre générations, une manière de prendre le temps de se
+            dire des choses qu’on ne dit pas toujours dans le quotidien.
+          </p>
+        </div>
+      </section>
+
+      <section class="downloads section-pad" id="telechargements" aria-labelledby="downloads-title">
+        <div class="downloads-panel">
+          <div class="section-heading split">
+            <div>
+              <h2 id="downloads-title">Ce que vous pouvez aussi découvrir</h2>
+              <p>
+                Les fichiers du projet sont regroupés dans un dossier Google Drive pour les
+                consulter, les copier et les sauvegarder.
+              </p>
+            </div>
+            <a
+              class="button primary"
+              href="https://drive.google.com/drive/folders/1SMhLm01evLo40ICz9pfNzLHVQOj9HDQF?usp=drive_link"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Ouvrir le dossier
+            </a>
+          </div>
+
+          <div class="download-list" aria-label="Liste des ressources téléchargeables">
+            <article class="download-row">
+              <span class="row-icon video-icon" aria-hidden="true"></span>
+              <div>
+                <h3>Vidéo</h3>
+                <p>Vidéo courte, vidéo complète et chapitrage en versions exhaustive et simplifiée.</p>
+              </div>
+              <strong>Formats vidéo</strong>
+            </article>
+            <article class="download-row">
+              <span class="row-icon audio-icon" aria-hidden="true"></span>
+              <div>
+                <h3>Audio radio podcast</h3>
+                <p>Version courte de 30 minutes et version complète de l’interview au format audio.</p>
+              </div>
+              <strong>Formats audio</strong>
+            </article>
+            <article class="download-row">
+              <span class="row-icon photo-icon" aria-hidden="true"></span>
+              <div>
+                <h3>Photographies</h3>
+                <p>Quelques souvenirs de la journée capturés lors de l’enregistrement.</p>
+              </div>
+              <strong>Images</strong>
+            </article>
+            <article class="download-row">
+              <span class="row-icon transcript-icon" aria-hidden="true"></span>
+              <div>
+                <h3>Transcriptions</h3>
+                <p>Transcription brute et sous-titres automatiques YouTube avec timecodes.</p>
+              </div>
+              <strong>Textes</strong>
+            </article>
+            <article class="download-row">
+              <span class="row-icon document-icon" aria-hidden="true"></span>
+              <div>
+                <h3>Préparation et documents de travail</h3>
+                <p>Guide d’entretien PDF et arbre généalogique pour situer les membres évoqués.</p>
+              </div>
+              <strong>Documents</strong>
+            </article>
+          </div>
+
+          <p class="save-note">
+            Important : les fichiers de ce projet sont à copier, à sauvegarder en plusieurs
+            endroits et sur plusieurs supports. Téléchargez-les.
+          </p>
+        </div>
+      </section>
+
+      <section class="full-version section-pad" aria-labelledby="full-video-title">
+        <div class="section-heading split">
+          <div>
+            <h2 id="full-video-title">Version complète</h2>
+            <p>
+              Pour celles et ceux qui souhaitent revivre l’interview dans son intégralité.
+            </p>
+          </div>
+          <a
+            class="text-link"
+            href="https://www.youtube.com/watch?v=LIIzHxx70iQ"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Ouvrir la vidéo complète
+          </a>
+        </div>
+        <div class="video-shell secondary-video">
+          <iframe
+            src="https://www.youtube-nocookie.com/embed/LIIzHxx70iQ?rel=0&modestbranding=1"
+            title="Interview complète de Christian"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+
+      <section class="closing section-pad" id="contact" aria-labelledby="closing-title">
+        <div>
+          <h2 id="closing-title">Un mot pour conclure</h2>
+          <p>
+            J’ai eu beaucoup de plaisir à accompagner Corentin dans cette initiative. J’espère
+            que vous prendrez plaisir à découvrir ce projet, à vous l'approprier et le transmettre.
+          </p>
+          <p>
+            Peut-être trouvera-t-il une place dans vos échanges familiaux, ou vous offrira-t-il
+            un moment de partage, de souvenir ou de découverte. Peut-être même un moyen
+            d’enrichir votre histoire commune et de renforcer vos liens.
+          </p>
+          <p>
+            Si cette démarche vous a touché·e, et que vous pensez à des proches pour qui elle
+            pourrait avoir une valeur particulière, n’hésitez pas à leur en parler, à leur partager
+            cette page, mon site ou à nous mettre en contact.
+          </p>
+        </div>
+        <aside class="contact-card">
+          <h3>Mathis Menuet</h3>
+          <p>Je reste bien sûr joignable pour toute question ou envie d’échanger.</p>
+          <a href="tel:+33621963242">06 21 96 32 42</a>
+          <a href="mailto:mathismenuetpro@gmail.com">mathismenuetpro@gmail.com</a>
+          <a href="https://www.mmbiographe.com/" target="_blank" rel="noreferrer">www.mmbiographe.com</a>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Récit de vie de Christian</span>
+      <span>Projet imaginé par Corentin</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
