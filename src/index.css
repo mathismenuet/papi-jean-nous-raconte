@@ -13,26 +13,25 @@
   --bottom-btn: #3d5638;
   --bottom-btn-hover: #2d4228;
   --bg-light: #f7f9f7;
-
-  .bg-bottom-btn-hover {
-    background: #02231A;
-  }
-
-  @keyframes float {
-    0% { transform: translateY(0px); }
-    50% { transform: translateY(-15px); }
-    100% { transform: translateY(0px); }
-  }
-
-  .animate-float {
-    animation: float 6s ease-in-out infinite;
-  }
-  
-  .animate-float-delayed {
-    animation: float 8s ease-in-out infinite reverse;
-  }
 }
 
+.bg-bottom-btn-hover {
+  background: #02231A;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-15px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-float-delayed {
+  animation: float 8s ease-in-out infinite reverse;
+}
 html, body, #root {
   height: 100%;
   margin: 0;

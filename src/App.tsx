@@ -7,7 +7,6 @@ import FamilyTree from './components/FamilyTree';
 import Downloads from './components/Downloads';
 import FullVersion from './components/FullVersion';
 import Contact from './components/Contact';
-import Footer from './components/Footer';
 
 function App() {
   const [isUnlocked, setIsUnlocked] = useState(() => {
@@ -16,10 +15,7 @@ function App() {
 
   return (
     <div className="font-sans antialiased text-dark-green bg-white">
-      <AccessGate 
-        isUnlocked={isUnlocked} 
-        onUnlock={() => setIsUnlocked(true)} 
-      />
+      {!isUnlocked && <AccessGate onUnlock={() => setIsUnlocked(true)} />}
       
       <div 
         className={`transition-opacity duration-1000 ${
@@ -33,7 +29,6 @@ function App() {
         <Downloads />
         <FullVersion />
         <Contact />
-        <Footer />
       </div>
     </div>
   );
