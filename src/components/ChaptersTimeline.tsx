@@ -5,39 +5,46 @@ const CHAPTER_GROUPS = [
   {
     title: "L'école de Papi",
     chapters: [
-      { time: "00:00", seconds: 0, title: "Début", text: "Pourquoi garder une trace pour vous." },
-      { time: "02:11", seconds: 131, title: "L'école d'autrefois", text: "Les maîtresses, les bons points et les punitions." },
-      { time: "04:08", seconds: 248, title: "Les copains", text: "La séparation garçons/filles et la cour de récréation." },
-      { time: "07:20", seconds: 440, title: "Les bonbons", text: "Carambars, Roudoudous et Malabars." },
+      { time: "00:18", seconds: 18, title: "🎙️ Introduction", text: '"Pourquoi garder une trace pour vous"' },
+      { time: "02:11", seconds: 131, title: "🏫 L'école d'autrefois", text: "Les maîtresses, les bons points et les punitions." },
+      { time: "04:08", seconds: 248, title: "👧 Les copains", text: "La séparation garçons/filles." },
+      { time: "05:22", seconds: 322, title: "⚽ La cour de récréation", text: "Le ballon et les billes." },
+      { time: "07:20", seconds: 440, title: "🍬 Les bonbons", text: "Carambars, Roudoudous et Malabars." },
     ]
   },
   {
     title: "L'enfance de Jean",
     chapters: [
-      { time: "10:03", seconds: 603, title: "À la maison", text: "Les devoirs, la petite sœur, et vivre chez grand-mère." },
-      { time: "15:34", seconds: 934, title: "La maison d'autrefois", text: "Pas de chambre, et toilettes au fond du jardin." },
-      { time: "17:28", seconds: 1048, title: "Les vacances", text: "Le camping et l'absence de frigo." },
-      { time: "21:38", seconds: 1298, title: "La vie sans téléphone", text: "Le cinéma inexistant et la collection de timbres." },
+      { time: "10:03", seconds: 603, title: "📝 Le retour à la maison", text: "Les devoirs et la petite sœur." },
+      { time: "13:27", seconds: 807, title: "👵 Chez grand-mère", text: "Les parents commerçants." },
+      { time: "15:34", seconds: 934, title: "🛏️ La maison d'autrefois", text: "Pas de chambre, et toilettes au fond du jardin." },
+      { time: "17:28", seconds: 1048, title: "🏕️ Les vacances", text: "Le camping et l'absence de frigo." },
+      { time: "20:30", seconds: 1230, title: "📺 Le cinéma", text: "Inexistant à l'époque." },
+      { time: "21:38", seconds: 1298, title: "☎️ La vie sans téléphone", text: "La collection de timbres." },
     ]
   },
   {
     title: "Les voyages",
     chapters: [
-      { time: "23:31", seconds: 1411, title: "Le goût de l'aventure", text: "Des rêves d'igloo à l'Antarctique et les nourritures bizarres." },
-      { time: "26:39", seconds: 1599, title: "Le premier vol", text: "L'avion pris pour soigner la coqueluche." },
-      { time: "29:52", seconds: 1792, title: "Une attaque inattendue", text: "L'attaque du taureau sur la plage." },
+      { time: "23:31", seconds: 1411, title: "🧭 Le goût de l'aventure", text: "Des rêves d'igloo à l'Antarctique." },
+      { time: "25:39", seconds: 1539, title: "🕷️ Nourritures bizarres", text: "Du bout du monde." },
+      { time: "26:39", seconds: 1599, title: "✈️ Le premier vol", text: "Pris pour soigner la coqueluche." },
+      { time: "28:11", seconds: 1691, title: "🙏 L'ouverture aux autres", text: "Le moine dans la glace." },
+      { time: "29:52", seconds: 1792, title: "🐂 L'attaque du taureau", text: "Sur la plage." },
     ]
   },
   {
     title: "Les devinettes de Papi Jean VRAI ou FAUX",
     chapters: [
-      { time: "31:36", seconds: 1896, title: "Vrai ou Faux ?", text: "Cervelle d'agneau, premier ordinateur et bras cassé." },
+      { time: "31:36", seconds: 1896, title: "❓ Vrai ou Faux ?", text: "Cervelle d'agneau, ordinateur et bras cassé." },
     ]
   },
   {
     title: "Mes conseils pour mes petits enfants",
     chapters: [
-      { time: "36:49", seconds: 2209, title: "Transmission & Vœux", text: "Se donner les moyens de ses rêves." }
+      { time: "36:12", seconds: 2172, title: "🧠 Toujours apprendre", text: "La philosophie de Jean." },
+      { time: "36:49", seconds: 2209, title: "💛 Le secret du bonheur", text: "Se donner les moyens de ses rêves." },
+      { time: "38:35", seconds: 2315, title: "✨ Les vœux de Papy", text: "Pour Eliott, Timothée, Juliette et Camille." }
     ]
   }
 ];
