@@ -23,7 +23,6 @@ export default function Hero() {
     { href: '#film', label: 'Le film' },
     { href: '#chapitres', label: 'Chapitres' },
     { href: '#demarche', label: 'Démarche' },
-    { href: '#telechargements', label: 'Fichiers' },
   ];
 
   return (
@@ -142,32 +141,17 @@ export default function Hero() {
             nous<br className="hidden sm:block" /> raconte
           </span>
         </h1>
-        <p className="mt-6 sm:mt-8 text-body-green text-base sm:text-lg md:text-xl leading-relaxed max-w-xl px-2 font-inter font-medium">
+        <p className="mt-6 sm:mt-8 text-body-green text-base sm:text-lg md:text-xl leading-relaxed max-w-xl px-2 font-inter font-medium mb-10">
           Eliott, Timothée, Juliette, Camille... Cette page vous est entièrement dédiée. Papy Jean a souhaité vous offrir cette capsule temporelle pour que vous puissiez retrouver ses souvenirs, sa philosophie et sa voix, à n'importe quel âge de vos propres vies.
         </p>
+
+        <a href="#film" className="bg-dark-green hover:bg-heading-accent text-white text-lg sm:text-xl font-medium px-8 sm:px-10 py-4 sm:py-5 rounded-full transition-all duration-300 shadow-xl shadow-dark-green/20 font-inter flex items-center gap-3 hover:scale-105 transform">
+          Voir le film
+          <Play className="w-5 h-5 fill-current" />
+        </a>
       </div>
 
-      {/* Bottom-left CTA block */}
-      <div className="absolute left-4 right-4 sm:right-auto sm:left-6 md:left-10 bottom-6 sm:bottom-8 md:bottom-10 z-10 max-w-sm">
-        <div className="flex items-center gap-2 text-bottom-text sm:text-white/95 mb-3">
-          <Sparkles className="w-4 h-4" />
-          <span className="text-sm font-semibold sm:font-medium font-inter">
-            Un souvenir impérissable
-          </span>
-        </div>
-        <p className="text-bottom-text/90 sm:text-white/85 text-xs leading-relaxed mb-6 max-w-xs font-medium sm:font-normal font-inter">
-          Ce projet a été imaginé pour recueillir et transmettre son histoire à Eliott, Timothée, Juliette et toute la famille.
-        </p>
-        <div className="flex items-center gap-4 flex-wrap">
-          <a href="#film" className="bg-bottom-btn sm:bg-white hover:bg-bottom-btn-hover sm:hover:bg-white/90 text-white sm:text-dark-green text-sm font-semibold px-5 sm:px-6 py-2.5 sm:py-3 rounded-full transition-colors shadow-sm font-inter flex items-center gap-2">
-            Voir le film
-            <Play className="w-3 h-3 fill-current" />
-          </a>
-          <a href="#telechargements" className="text-bottom-text sm:text-white text-sm font-semibold sm:font-medium hover:opacity-80 transition-opacity font-inter">
-            Accéder aux fichiers
-          </a>
-        </div>
-      </div>
+
 
       {/* Bottom-right video link */}
       <a href="#chapitres" className="hidden sm:flex absolute right-6 md:right-10 bottom-8 md:bottom-10 z-10 items-center gap-2 text-white/90 text-sm hover:opacity-80 transition-opacity font-inter">
