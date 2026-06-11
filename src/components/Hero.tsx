@@ -129,7 +129,7 @@ export default function Hero() {
         <div className="mb-6 inline-flex items-center gap-2 px-4 py-2 rounded-full bg-dark-green/5 border border-dark-green/10 text-sm font-medium text-dark-green">
           <span>Tourné le 12 avril 2026</span>
           <span className="w-1 h-1 rounded-full bg-dark-green/30" />
-          <span>Jean avait [XX] ans</span>
+          <span>Jean avait 81 ans</span>
         </div>
         
         <h1
