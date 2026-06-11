@@ -9,7 +9,7 @@ export default function FamilyTree() {
             L'Arbre Généalogique
           </h2>
           <p className="text-body-green text-base sm:text-lg font-inter leading-relaxed max-w-2xl mx-auto">
-            Voici les membres de la famille évoqués lors de cet échange intime. Un repère précieux pour l'histoire transmise aujourd'hui.
+            Voici les membres de la famille tels qu'ils étaient le jour du tournage, le 12 avril 2026. Un repère précieux pour se situer dans le temps.
           </p>
         </div>
 
@@ -23,7 +23,7 @@ export default function FamilyTree() {
                   <span className="text-2xl sm:text-3xl font-normal" style={{ fontFamily: '"Neue Haas Grotesk Display Pro 55 Roman", sans-serif' }}>JP</span>
                 </div>
                 <h3 className="text-xl font-semibold text-dark-green">Jean Paquet</h3>
-                <p className="text-body-green text-sm">Le Grand-père</p>
+                <p className="text-body-green text-sm">Le Grand-père ([XX] ans)</p>
               </div>
 
               {/* Ligne d'union grand-parents */}
@@ -34,7 +34,7 @@ export default function FamilyTree() {
                   <Users className="w-8 h-8 opacity-40" />
                 </div>
                 <h3 className="text-xl font-semibold text-dark-green">Marie-Claude</h3>
-                <p className="text-body-green text-sm">La Grand-mère</p>
+                <p className="text-body-green text-sm">La Grand-mère ([XX] ans)</p>
               </div>
             </div>
 
@@ -54,7 +54,7 @@ export default function FamilyTree() {
                   <span className="text-xl sm:text-2xl font-semibold">AL</span>
                 </div>
                 <h3 className="text-lg font-semibold text-dark-green">Anne-Laure</h3>
-                <p className="text-body-green text-sm text-center">Fille</p>
+                <p className="text-body-green text-sm text-center">Fille ([XX] ans)</p>
 
                 {/* Descendance Anne-Laure */}
                 <div className="w-[2px] h-8 bg-medium-dark-green/20 my-4"></div>
@@ -64,12 +64,12 @@ export default function FamilyTree() {
                   <div className="flex flex-col items-center">
                     <div className="w-[2px] h-6 bg-medium-dark-green/20 -mt-12 mb-6"></div>
                     <div className="w-16 h-16 bg-bg-light rounded-full flex items-center justify-center text-dark-green text-sm font-semibold mb-2 shadow-sm border border-black/5">El</div>
-                    <p className="text-sm font-medium text-dark-green">Eliott</p>
+                    <p className="text-sm font-medium text-dark-green">Eliott ([XX] ans)</p>
                   </div>
                   <div className="flex flex-col items-center">
                     <div className="w-[2px] h-6 bg-medium-dark-green/20 -mt-12 mb-6"></div>
                     <div className="w-16 h-16 bg-bg-light rounded-full flex items-center justify-center text-dark-green text-sm font-semibold mb-2 shadow-sm border border-black/5">Ti</div>
-                    <p className="text-sm font-medium text-dark-green">Timothée</p>
+                    <p className="text-sm font-medium text-dark-green">Timothée ([XX] ans)</p>
                   </div>
                 </div>
               </div>
@@ -83,7 +83,7 @@ export default function FamilyTree() {
                   <span className="text-xl sm:text-2xl font-semibold">Ar</span>
                 </div>
                 <h3 className="text-lg font-semibold text-dark-green">Arnaud</h3>
-                <p className="text-body-green text-sm text-center">Fils</p>
+                <p className="text-body-green text-sm text-center">Fils ([XX] ans)</p>
 
                 {/* Descendance Arnaud */}
                 <div className="w-[2px] h-8 bg-medium-dark-green/20 my-4"></div>
@@ -93,12 +93,12 @@ export default function FamilyTree() {
                   <div className="flex flex-col items-center">
                     <div className="w-[2px] h-6 bg-medium-dark-green/20 -mt-12 mb-6"></div>
                     <div className="w-16 h-16 bg-bg-light rounded-full flex items-center justify-center text-dark-green text-sm font-semibold mb-2 shadow-sm border border-black/5">Ju</div>
-                    <p className="text-sm font-medium text-dark-green">Juliette</p>
+                    <p className="text-sm font-medium text-dark-green">Juliette ([XX] ans)</p>
                   </div>
                   <div className="flex flex-col items-center">
                     <div className="w-[2px] h-6 bg-medium-dark-green/20 -mt-12 mb-6"></div>
                     <div className="w-16 h-16 bg-bg-light rounded-full flex items-center justify-center text-dark-green text-sm font-semibold mb-2 shadow-sm border border-black/5">Ca</div>
-                    <p className="text-sm font-medium text-dark-green">Camille</p>
+                    <p className="text-sm font-medium text-dark-green">Camille ([XX] ans)</p>
                   </div>
                 </div>
               </div>

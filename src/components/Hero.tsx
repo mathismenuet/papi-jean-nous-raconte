@@ -127,6 +127,12 @@ export default function Hero() {
 
       {/* Hero copy */}
       <div className="relative z-10 flex flex-col items-center text-center pt-32 sm:pt-36 md:pt-40 px-4 sm:px-6">
+        <div className="mb-6 inline-flex items-center gap-2 px-4 py-2 rounded-full bg-dark-green/5 border border-dark-green/10 text-sm font-medium text-dark-green">
+          <span>Tourné le 12 avril 2026</span>
+          <span className="w-1 h-1 rounded-full bg-dark-green/30" />
+          <span>Jean avait [XX] ans</span>
+        </div>
+        
         <h1
           className="font-normal leading-[0.95] text-heading-primary text-[2.5rem] sm:text-5xl md:text-6xl lg:text-[5.5rem] xl:text-[6.5rem] max-w-5xl"
           style={{ fontFamily: '"Neue Haas Grotesk Display Pro 55 Roman", "Helvetica Neue", Helvetica, Arial, sans-serif', letterSpacing: '-0.035em' }}
@@ -136,8 +142,8 @@ export default function Hero() {
             nous<br className="hidden sm:block" /> raconte
           </span>
         </h1>
-        <p className="mt-6 sm:mt-8 text-body-green text-lg sm:text-xl md:text-2xl leading-relaxed max-w-lg px-2 font-inter font-medium">
-          (ses souvenirs, ses histoires, sa vie)
+        <p className="mt-6 sm:mt-8 text-body-green text-base sm:text-lg md:text-xl leading-relaxed max-w-xl px-2 font-inter font-medium">
+          Eliott, Timothée, Juliette, Camille... Cette page vous est entièrement dédiée. Papy Jean a souhaité vous offrir cette capsule temporelle pour que vous puissiez retrouver ses souvenirs, sa philosophie et sa voix, à n'importe quel âge de vos propres vies.
         </p>
       </div>
 
