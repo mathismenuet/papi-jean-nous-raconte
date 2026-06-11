@@ -63,17 +63,17 @@ export default function Downloads() {
               href={asset.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="group block p-6 sm:p-8 rounded-2xl bg-bg-light/50 border border-dark-green/5 hover:border-accent-yellow/30 hover:bg-white hover:shadow-[0_8px_30px_rgb(0,0,0,0.04)] transition-all duration-300 transform hover:-translate-y-1"
+              className="group block p-6 sm:p-8 rounded-2xl bg-bg-light/50 border border-dark-green/5 hover:border-heading-accent/30 hover:bg-white hover:shadow-[0_8px_30px_rgb(0,0,0,0.04)] transition-all duration-300 transform hover:-translate-y-1"
             >
               <div className="flex flex-col h-full">
                 <div className="flex items-start justify-between mb-6">
-                  <div className="w-12 h-12 sm:w-16 sm:h-16 rounded-xl bg-accent-yellow/10 text-accent-yellow flex items-center justify-center transition-transform duration-500 group-hover:scale-110 group-hover:bg-accent-yellow group-hover:text-white">
+                  <div className="w-12 h-12 sm:w-16 sm:h-16 rounded-xl bg-heading-accent/10 text-heading-accent flex items-center justify-center transition-transform duration-500 group-hover:scale-110 group-hover:bg-heading-accent group-hover:text-white">
                     {asset.icon}
                   </div>
-                  <ExternalLink className="w-5 h-5 text-medium-dark-green/20 group-hover:text-accent-yellow transition-colors duration-300" />
+                  <ExternalLink className="w-5 h-5 text-medium-dark-green/20 group-hover:text-heading-accent transition-colors duration-300" />
                 </div>
                 
-                <h3 className="text-xl font-neue text-dark-green mb-3 group-hover:text-accent-yellow transition-colors">
+                <h3 className="text-xl font-neue text-dark-green mb-3 group-hover:text-heading-accent transition-colors">
                   {asset.title}
                 </h3>
                 
@@ -83,7 +83,7 @@ export default function Downloads() {
                 
                 <div className="pt-4 border-t border-dark-green/5 flex items-center justify-between text-xs font-medium text-medium-dark-green/40 uppercase tracking-wider">
                   <span>{asset.format}</span>
-                  <span className="flex items-center gap-1 group-hover:text-accent-yellow transition-colors">
+                  <span className="flex items-center gap-1 group-hover:text-heading-accent transition-colors">
                     Télécharger
                   </span>
                 </div>

@@ -65,7 +65,7 @@ export default function ChaptersTimeline() {
   }, []);
 
   return (
-    <div id="chapitres" className="w-full py-16 px-6 sm:px-10 lg:px-12 bg-[#fdfbf7] relative overflow-hidden h-full">
+    <div id="chapitres" className="w-full py-8 sm:py-16 px-4 sm:px-10 lg:px-12 bg-[#fdfbf7] relative overflow-hidden h-full">
       
       {/* Decorative Clouds */}
       <div className="absolute top-20 right-[-5%] opacity-20 animate-float pointer-events-none">
@@ -96,12 +96,12 @@ export default function ChaptersTimeline() {
             <div key={groupIndex} className="mb-10">
               
               {/* Group Header (Grand Chapitre) */}
-              <div className="relative pl-8 sm:pl-12 pt-6 pb-6">
+              <div className="relative pl-8 sm:pl-12 pt-4 pb-4 sm:pt-6 sm:pb-6">
                 {/* Large Timeline dot for group */}
-                <div className="absolute -left-[14px] top-[30px] w-7 h-7 rounded-full bg-heading-primary border-4 border-[#fdfbf7] flex items-center justify-center z-10 shadow-sm">
+                <div className="absolute -left-[14px] top-[22px] sm:top-[30px] w-7 h-7 rounded-full bg-heading-primary border-4 border-[#fdfbf7] flex items-center justify-center z-10 shadow-sm">
                   <div className="w-2 h-2 bg-white rounded-full" />
                 </div>
-                <h3 className="text-2xl sm:text-3xl font-normal text-heading-primary" style={{ fontFamily: '"Neue Haas Grotesk Display Pro 55 Roman", sans-serif' }}>
+                <h3 className="text-xl sm:text-3xl font-normal text-heading-primary" style={{ fontFamily: '"Neue Haas Grotesk Display Pro 55 Roman", sans-serif' }}>
                   {group.title}
                 </h3>
               </div>
@@ -116,22 +116,22 @@ export default function ChaptersTimeline() {
                     {/* Chapter Card */}
                     <button 
                       onClick={() => seekVideo(chapter.seconds)}
-                      className="block w-full text-left bg-white p-5 sm:p-6 rounded-2xl shadow-sm border border-black/5 hover:shadow-[0_10px_30px_rgba(0,0,0,0.06)] hover:-translate-y-1 transition-all duration-300 relative overflow-hidden group-hover:border-heading-accent/20"
+                      className="block w-full text-left bg-white p-4 sm:p-6 rounded-2xl shadow-sm border border-black/5 hover:shadow-[0_10px_30px_rgba(0,0,0,0.06)] hover:-translate-y-1 transition-all duration-300 relative overflow-hidden group-hover:border-heading-accent/20"
                     >
                       {/* Play icon overlay on hover */}
                       <div className="absolute top-1/2 right-6 -translate-y-1/2 opacity-0 group-hover:opacity-100 group-hover:translate-x-0 translate-x-4 transition-all duration-500 text-heading-accent pointer-events-none">
                         <Play className="w-8 h-8 fill-current opacity-15" />
                       </div>
 
-                      <span className="inline-block px-3 py-1 text-xs font-semibold rounded-full bg-heading-accent/10 text-heading-primary mb-3 font-inter transition-colors duration-300 group-hover:bg-heading-accent group-hover:text-white">
+                      <span className="inline-block px-3 py-1 text-xs font-semibold rounded-full bg-heading-accent/10 text-heading-primary mb-2 sm:mb-3 font-inter transition-colors duration-300 group-hover:bg-heading-accent group-hover:text-white">
                         {chapter.time}
                       </span>
                       
-                      <h4 className="text-lg sm:text-xl font-normal mb-2 text-dark-green group-hover:text-heading-accent transition-colors duration-300 pr-8" style={{ fontFamily: '"Neue Haas Grotesk Display Pro 55 Roman", sans-serif' }}>
+                      <h4 className="text-base sm:text-xl font-normal mb-1 sm:mb-2 text-dark-green group-hover:text-heading-accent transition-colors duration-300 pr-8" style={{ fontFamily: '"Neue Haas Grotesk Display Pro 55 Roman", sans-serif' }}>
                         {chapter.title}
                       </h4>
                       
-                      <p className="text-sm text-body-green/80 font-inter leading-relaxed max-w-[90%]">
+                      <p className="text-xs sm:text-sm text-body-green/80 font-inter leading-relaxed max-w-[90%]">
                         {chapter.text}
                       </p>
                     </button>

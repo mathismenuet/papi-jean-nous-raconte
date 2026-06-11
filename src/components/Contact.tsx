@@ -12,8 +12,8 @@ export default function Contact() {
           
           <div className="space-y-6 text-body-green text-lg font-inter font-light leading-relaxed">
             <p>
-              J’ai eu beaucoup de plaisir à accompagner Corentin dans cette initiative. J’espère
-              que vous prendrez plaisir à découvrir ce projet, à vous l'approprier et le transmettre.
+              J’ai eu beaucoup de plaisir à réaliser ce projet avec Jean et sa famille. J’espère
+              que vous prendrez plaisir à le découvrir, à vous l'approprier et à le transmettre.
             </p>
             <p>
               Peut-être trouvera-t-il une place dans vos échanges familiaux, ou vous offrira-t-il
@@ -40,13 +40,15 @@ export default function Contact() {
 
             <div className="space-y-4 font-inter">
               <a 
-                href="tel:+33621963242"
+                href="https://wa.me/33621963242"
+                target="_blank"
+                rel="noreferrer"
                 className="flex items-center gap-4 text-dark-green hover:text-heading-accent transition-colors p-3 -mx-3 rounded-xl hover:bg-white"
               >
                 <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center shadow-sm">
                   <Phone className="w-5 h-5 text-medium-dark-green" />
                 </div>
-                <span className="font-medium">06 21 96 32 42</span>
+                <span className="font-medium">06 21 96 32 42 (WhatsApp)</span>
               </a>
               
               <a 
@@ -57,18 +59,6 @@ export default function Contact() {
                   <Mail className="w-5 h-5 text-medium-dark-green" />
                 </div>
                 <span className="font-medium">mathismenuetpro@gmail.com</span>
-              </a>
-              
-              <a 
-                href="https://www.mmbiographe.com/"
-                target="_blank"
-                rel="noreferrer"
-                className="flex items-center gap-4 text-dark-green hover:text-heading-accent transition-colors p-3 -mx-3 rounded-xl hover:bg-white"
-              >
-                <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center shadow-sm">
-                  <Globe className="w-5 h-5 text-medium-dark-green" />
-                </div>
-                <span className="font-medium">www.mmbiographe.com</span>
               </a>
             </div>
           </div>

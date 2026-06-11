@@ -12,13 +12,13 @@ export default function Process() {
           
           <div className="space-y-8 sm:space-y-12 sm:pl-10">
             <p className="text-lg sm:text-xl md:text-2xl text-dark-green leading-relaxed font-inter font-light">
-              Corentin a imaginé et co-construit ce projet dès le départ. C’est lui qui a préparé
-              les questions, pensé l’entretien, réfléchi à ce qu’il voulait transmettre.
+              Ce projet a été imaginé et co-construit pour recueillir et transmettre l'histoire de Jean. 
+              Les questions ont été préparées avec soin, en pensant à ce qu'il souhaitait laisser à ses petits-enfants.
             </p>
             
             <p className="text-lg sm:text-xl md:text-2xl text-dark-green leading-relaxed font-inter font-light">
-              Mon rôle a été de l’accompagner dans cette démarche, de faciliter la préparation
-              de l'entretien pour que l’échange se déroule de manière fluide, humaine et mémorable.
+              Mon rôle a été d'accompagner la famille dans cette démarche, de faciliter l'entretien
+              pour que l’échange se déroule de manière fluide, spontanée et mémorable.
             </p>
             
             <div className="p-8 sm:p-10 bg-bg-light rounded-3xl mt-12 border border-medium-dark-green/5">
