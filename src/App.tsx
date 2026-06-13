@@ -5,6 +5,7 @@ import StoryLayout from './components/StoryLayout';
 import Process from './components/Process';
 import FamilyTree from './components/FamilyTree';
 import Downloads from './components/Downloads';
+import InteractiveMindMap from './components/InteractiveMindMap';
 import FullVersion from './components/FullVersion';
 import Contact from './components/Contact';
 
@@ -27,6 +28,7 @@ function App() {
         <Process />
         <FamilyTree />
         <Downloads />
+        <InteractiveMindMap />
         <FullVersion />
         <Contact />
       </div>

@@ -32,6 +32,44 @@
 .animate-float-delayed {
   animation: float 8s ease-in-out infinite reverse;
 }
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Mind Map Lines */
+.mindmap-children-container {
+  position: relative;
+}
+.mindmap-children-container::before {
+  content: '';
+  position: absolute;
+  top: -20px;
+  bottom: 50%;
+  left: -24px;
+  border-left: 2px solid rgba(48, 82, 68, 0.2); /* medium-dark-green with opacity */
+  z-index: 0;
+}
+.mindmap-children-container > li:last-child::before {
+  bottom: auto;
+  height: calc(50% + 20px);
+}
+.mindmap-node-wrapper {
+  position: relative;
+}
+.mindmap-node-wrapper::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -24px;
+  width: 24px;
+  border-top: 2px solid rgba(48, 82, 68, 0.2);
+  z-index: 0;
+}
+
 html, body, #root {
   height: 100%;
   margin: 0;
