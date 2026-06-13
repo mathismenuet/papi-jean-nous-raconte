@@ -3,48 +3,65 @@ import { Cloud, Play } from 'lucide-react';
 
 const CHAPTER_GROUPS = [
   {
-    title: "L'école de Papi",
+    title: "🎬 Introduction & Extraits",
     chapters: [
-      { time: "00:18", seconds: 18, title: "🎙️ Introduction", text: '"Pourquoi garder une trace pour vous"' },
-      { time: "02:11", seconds: 131, title: "🏫 L'école d'autrefois", text: "Les maîtresses, les bons points et les punitions." },
-      { time: "04:08", seconds: 248, title: "👧 Les copains", text: "La séparation garçons/filles." },
-      { time: "05:22", seconds: 322, title: "⚽ La cour de récréation", text: "Le ballon et les billes." },
-      { time: "07:20", seconds: 440, title: "🍬 Les bonbons", text: "Carambars, Roudoudous et Malabars." },
+      { time: "00:00", seconds: 0, title: "Teaser / Bêtisier", text: "Extraits du tournage." },
+      { time: "01:40", seconds: 100, title: "🎙️ Le début de l'histoire", text: "Pourquoi garder une trace pour vous." },
     ]
   },
   {
-    title: "L'enfance de Jean",
+    title: "🏫 L'école de Papi",
     chapters: [
-      { time: "10:03", seconds: 603, title: "📝 Le retour à la maison", text: "Les devoirs et la petite sœur." },
-      { time: "13:27", seconds: 807, title: "👵 Chez grand-mère", text: "Les parents commerçants." },
-      { time: "15:34", seconds: 934, title: "🛏️ La maison d'autrefois", text: "Pas de chambre, et toilettes au fond du jardin." },
-      { time: "17:28", seconds: 1048, title: "🏕️ Les vacances", text: "Le camping et l'absence de frigo." },
-      { time: "20:30", seconds: 1230, title: "📺 Le cinéma", text: "Inexistant à l'époque." },
-      { time: "21:38", seconds: 1298, title: "☎️ La vie sans téléphone", text: "La collection de timbres." },
+      { time: "02:48", seconds: 168, title: "L'école d'autrefois", text: "Les maîtresses (Mme Baudry), les bons points et les carnets." },
+      { time: "04:45", seconds: 285, title: "👧 Les copains", text: "Didier, et la séparation garçons/filles." },
+      { time: "06:03", seconds: 363, title: "⚽ La cour de récréation", text: "Le ballon et les billes." },
+      { time: "06:45", seconds: 405, title: "❌ Les punitions sévères", text: "Au coin et la feuille de papier au mur." },
+      { time: "07:56", seconds: 476, title: "🍬 La sortie de l'école", text: "La compétition pour les bonbons." },
+      { time: "08:58", seconds: 538, title: "🍭 Les bonbons cultes", text: "Carambars, Roudoudous et Malabars." },
     ]
   },
   {
-    title: "Les voyages",
+    title: "🏡 L'enfance de Jean",
     chapters: [
-      { time: "23:31", seconds: 1411, title: "🧭 Le goût de l'aventure", text: "Des rêves d'igloo à l'Antarctique." },
-      { time: "25:39", seconds: 1539, title: "🕷️ Nourritures bizarres", text: "Du bout du monde." },
-      { time: "26:39", seconds: 1599, title: "✈️ Le premier vol", text: "Pris pour soigner la coqueluche." },
-      { time: "28:11", seconds: 1691, title: "🙏 L'ouverture aux autres", text: "Le moine dans la glace." },
-      { time: "29:52", seconds: 1792, title: "🐂 L'attaque du taureau", text: "Sur la plage." },
+      { time: "10:37", seconds: 637, title: "📝 Le retour à la maison", text: "Les devoirs et les leçons." },
+      { time: "11:38", seconds: 698, title: "👨‍👩‍👧 La famille", text: "Edmond, Raymond et Catherine la petite sœur." },
+      { time: "13:22", seconds: 802, title: "🎲 Les jeux partagés", text: "Jeu de l'oie et Nain jaune." },
+      { time: "14:05", seconds: 845, title: "👵 Chez grand-mère", text: "Les parents commerçants trop occupés." },
+      { time: "16:15", seconds: 975, title: "🛏️ La maison d'autrefois", text: "Cuisine au chaud et toilettes au fond du jardin." },
+      { time: "18:07", seconds: 1087, title: "🏕️ Les vacances d'été", text: "Le camping dans le Berry et copains à la rivière." },
+      { time: "20:37", seconds: 1237, title: "❄️ La vie matérielle", text: "Pas de frigo et conservation dans la cave." },
+      { time: "21:34", seconds: 1294, title: "📺 Les soirées", text: "Le cinéma et la télévision inexistants au début." },
+      { time: "22:20", seconds: 1340, title: "☎️ La communication", text: "La vie sans téléphone portable, le pouvoir des lettres." },
+      { time: "23:31", seconds: 1411, title: "✉️ Une passion instructive", text: "La grande collection de timbres." },
     ]
   },
   {
-    title: "Les devinettes de Papi Jean VRAI ou FAUX",
+    title: "🌍 Les voyages",
     chapters: [
-      { time: "31:36", seconds: 1896, title: "❓ Vrai ou Faux ?", text: "Cervelle d'agneau, ordinateur et bras cassé." },
+      { time: "24:12", seconds: 1452, title: "🧭 Voyages extraordinaires", text: "Du rêve d'igloo aux réalités de l'âge adulte." },
+      { time: "25:06", seconds: 1506, title: "🏔️ Les grandes ascensions", text: "Et l'Antarctique (mais pas d'ours blancs !)." },
+      { time: "26:20", seconds: 1580, title: "🕷️ Nourritures bizarres", text: "Du crocodile aux fourmis au citron." },
+      { time: "27:19", seconds: 1639, title: "✈️ Le premier vol", text: "Un petit coucou pour soigner la coqueluche." },
+      { time: "28:53", seconds: 1733, title: "🙏 Les rencontres", text: "Le moine nu dans la glace au Népal." },
+      { time: "30:34", seconds: 1834, title: "🐂 L'anecdote drôle", text: "L'attaque du taureau sur la plage." },
     ]
   },
   {
-    title: "Mes conseils pour mes petits enfants",
+    title: "❓ Les devinettes de Papi Jean VRAI ou FAUX",
     chapters: [
-      { time: "36:12", seconds: 2172, title: "🧠 Toujours apprendre", text: "La philosophie de Jean." },
-      { time: "36:49", seconds: 2209, title: "💛 Le secret du bonheur", text: "Se donner les moyens de ses rêves." },
-      { time: "38:35", seconds: 2315, title: "✨ Les vœux de Papy", text: "Pour Eliott, Timothée, Juliette et Camille." }
+      { time: "32:13", seconds: 1933, title: "❓ Vrai ou Faux", text: "Les règles du jeu." },
+      { time: "32:37", seconds: 1957, title: "🧠 Pour être intelligent", text: "Manger de la cervelle d'agneau." },
+      { time: "33:20", seconds: 2000, title: "💻 Le premier ordinateur", text: "Qui prenait toute une pièce !" },
+      { time: "35:08", seconds: 2108, title: "🚲 L'accident de vélo", text: "Le bras cassé par gourmandise avant le permis." },
+    ]
+  },
+  {
+    title: "💡 Mes conseils pour mes petits enfants",
+    chapters: [
+      { time: "36:49", seconds: 2209, title: "🧠 Toujours apprendre", text: "La philosophie de Jean face à l'IA." },
+      { time: "37:37", seconds: 2257, title: "💛 Le secret du bonheur", text: "Se donner les moyens de ses rêves." },
+      { time: "39:17", seconds: 2357, title: "✨ Les vœux de Papy", text: "Pour Eliott, Timothée, Juliette et Camille." },
+      { time: "40:38", seconds: 2438, title: "🎬 Le mot de la fin", text: "Conclusion." }
     ]
   }
 ];
