@@ -100,10 +100,13 @@ export default function ChaptersTimeline() {
 
       <div className="relative z-10 max-w-2xl mx-auto">
         <div className="mb-8">
-          <h2 className="text-3xl sm:text-4xl font-normal text-heading-primary mb-4" style={{ fontFamily: '"Neue Haas Grotesk Display Pro 55 Roman", sans-serif', letterSpacing: '-0.02em' }}>
+          <h2 className="text-3xl sm:text-4xl font-normal text-heading-primary mb-2" style={{ fontFamily: '"Neue Haas Grotesk Display Pro 55 Roman", sans-serif', letterSpacing: '-0.02em' }}>
             Papi Jean nous raconte
           </h2>
-          <p className="text-body-green text-base font-inter leading-relaxed">
+          <p className="text-body-green text-base sm:text-lg font-inter leading-relaxed mb-4 max-w-3xl">
+            (ses souvenirs, ses histoires, sa vie) à ses petits-enfants (Eliott, Timothée et Juliette). Un échange intergénérationnel spontané et joyeux, façon "Père Castor", pour transmettre la curiosité, la simplicité et le goût de l'aventure aux générations futures.
+          </p>
+          <p className="text-body-green text-sm font-inter leading-relaxed opacity-80">
             Parcourez les anecdotes racontées aux enfants. Cliquez sur un souvenir pour lancer la vidéo au bon moment.
           </p>
         </div>
