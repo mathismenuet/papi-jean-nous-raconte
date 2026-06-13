@@ -14,7 +14,7 @@ export default function FullVersion() {
             </p>
           </div>
           <a 
-            href="https://www.youtube.com/watch?v=mJa228TXLiM" 
+            href="https://www.youtube.com/watch?v=4kDQh68BVFU" 
             target="_blank" 
             rel="noreferrer"
             className="group flex items-center gap-2 text-sm font-semibold text-medium-dark-green hover:text-dark-green transition-colors font-inter py-2"
@@ -26,7 +26,7 @@ export default function FullVersion() {
 
         <div className="relative w-full aspect-video rounded-2xl sm:rounded-[2rem] overflow-hidden bg-dark-green/5 shadow-inner">
           <iframe
-            src="https://www.youtube.com/embed/mJa228TXLiM?rel=0&modestbranding=1"
+            src="https://www.youtube.com/embed/4kDQh68BVFU?rel=0&modestbranding=1"
             title="Interview complète de Jean"
             className="absolute inset-0 w-full h-full border-0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
